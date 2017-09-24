@@ -1,7 +1,7 @@
 FROM jenkins/jenkins
 USER root
 RUN apt-get update && \
-apt-get install -y python-pip default-jdk && \
+apt-get install -y python-pip default-jdk docker && \
 chown 1000 ~/ && \
 pip install awscli
 User 1000
