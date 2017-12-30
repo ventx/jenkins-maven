@@ -70,5 +70,6 @@ workflow-cps:2.40
 docker-commons:1.8
 credentials:2.1.16
 maven-plugin:2.17
+pipeline-maven:3.1.0
 workflow-job:2.12.2
 template-project:1.5.2
